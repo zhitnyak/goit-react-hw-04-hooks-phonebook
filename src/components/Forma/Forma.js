@@ -7,6 +7,7 @@ const Form = ({ onSubmit }) => {
 
   const handleInputChange = (e) => {
     const { name, value } = e.currentTarget;
+    console.dir(e.currentTarget);
 
     switch (name) {
       case "name":
@@ -15,16 +16,6 @@ const Form = ({ onSubmit }) => {
       case "number":
         setNumber(value);
         break;
-
-      // switch (e.currentTarget.name) {
-      //   case "e.currentTarget.name":
-      //     setName(e.currentTarget.value);
-      //     break;
-      //   case "e.currentTarget.number":
-      //     setNumber(e.currentTarget.value);
-      //     break;
-      //   // [e.currentTarget.name]: e.currentTarget.number,
-      //   // [name]: value,
       default:
         return;
     }
