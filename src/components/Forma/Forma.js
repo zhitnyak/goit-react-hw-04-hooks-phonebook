@@ -7,7 +7,7 @@ const Form = ({ onSubmit }) => {
 
   const handleInputChange = (e) => {
     const { name, value } = e.currentTarget;
-    console.dir(e.currentTarget);
+    // console.dir(e.currentTarget);
 
     switch (name) {
       case "name":
