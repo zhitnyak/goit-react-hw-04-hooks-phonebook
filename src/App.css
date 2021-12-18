@@ -1,4 +1,7 @@
-.App {
-  text-align: center;
+.wrapper {
+  padding: 10px 20px;
+  max-width: 320px;
+  background-color: rgb(213, 222, 250);
+  margin: auto;
+  margin-top: 10px;
 }
-
